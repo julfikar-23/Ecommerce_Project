@@ -71,7 +71,7 @@ nav a{
 /* Navbar ends here */
 
 /* Banner starts here */
-.header{
+header{
     padding: 4rem 0;
     height: 80vh;
     background: url("Images/Banner.jpg") no-repeat center fixed;
@@ -81,7 +81,7 @@ nav a{
     height: 100%; width: 100%;
     flex-direction: column;
 }
-.banner_title{
+marquee{
     font-size: 4rem;
     color: yellow;
     padding: 1rem;
@@ -90,7 +90,7 @@ nav a{
 .features{
     width: 100%;
 }
-.feature{
+article{
     background-color: var(--secondary-color);
     padding: 1rem;
     width: 15rem;
@@ -98,7 +98,7 @@ nav a{
     text-align: center;
     color: white;
 }
-.feature_icon{
+header i{
     font-size: 2rem;
 }
 h3{

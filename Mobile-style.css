@@ -13,7 +13,7 @@
     .hidden{
         display: none;
     }
-    .header{
+    header{
         height: 110vh;
     }
 }
