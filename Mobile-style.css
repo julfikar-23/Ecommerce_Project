@@ -16,4 +16,8 @@
     header{
         height: 110vh;
     }
+    .sort-search{
+        flex-direction: column;
+        gap: 5rem;
+    }
 }

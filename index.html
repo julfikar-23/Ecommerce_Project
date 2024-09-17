@@ -72,6 +72,253 @@
         </div>
     </header>
     <!-- Banner ends here -->
+
+    <!-- Main content starts here -->
+    <main>
+        <div class="sidebar">
+            <div class="categories">
+                <h2>Categories</h2>
+                <ul>
+                    <li>
+                        &nbsp;
+                        <label for="phones"></label>
+                        <input type="checkbox" name="phone" id="phone" value="phone">Telephones
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="tablets"></label>
+                        <input type="checkbox" name="tablets" id="tablets" value="tablets">Tablets
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="computers"></label>
+                        <input type="checkbox" name="computers" id="computers" value="computers">Computers
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="headphones"></label>
+                        <input type="checkbox" name="headphones" id="headphones" value="headphones">Headphones
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="smartphones"></label>
+                        <input type="checkbox" name="smartphones" id="smartphones" value="smartphones">Smartphones
+                    </li>
+                </ul>
+            </div><br>
+            <div class="price_rang">
+                <h2>Price Rang</h2>
+                <ul>
+                    <li>
+                        &nbsp;
+                        <label for="lower"></label>
+                        <input type="radio" name="lower" id="lower" value="lower">$0 - $20
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="lower_middle"></label>
+                        <input type="radio" name="lower_middle" id="lower_middle" value="lower_middle">$21 - $50
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="middle"></label>
+                        <input type="radio" name="middle" id="middle" value="middle">$51 - $100
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="upper_middle"></label>
+                        <input type="radio" name="upper_middle" id="upper_middle" value="upper_middle">$101 - $300
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="high"></label>
+                        <input type="radio" name="high" id="high" value="high">$300+
+                    </li>
+                </ul>
+            </div><br>
+            <div class="shipping_option">
+                <h2>Shipping Option</h2>
+                <ul>
+                    <li>
+                        &nbsp;
+                        <label for="free"></label>
+                        <input type="radio" name="free" id="free" value="free"> Free Shipping
+                    </li>
+                    <li>
+                        &nbsp;
+                        <label for="paid"></label>
+                        <input type="radio" name="paid" id="paid" value="paid"> Paid Shipping
+                    </li>
+                </ul>
+            </div><br>
+        </div>
+        <div class="main_content">
+            <div class="sort-search">
+                <div class="sort">
+                    <label for="sort">Sort By: </label>
+                    <select name="sort" id="sort">
+                        <option value="sold">Most Sold First</option>
+                        <option value="rating">Most Rated First</option>
+                        <option value="price">Chpeapest First</option>
+                        <option value="arrival">Newest First</option>
+                        <option value="discount">Biggest Discount First</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <input class="search_bar" placeholder="search product">
+                    <i class="fas fa-search search_icon"></i>
+                </div>
+            </div>
+            <!-- Products section starts here -->
+             <div class="products">
+                <article class="card">
+                    <div class="badge">
+                        <span>5 in Stock</span>
+                        <hr class="hr">
+                        <span>3 Sold</span>
+                    </div>
+                    <img class="headphone image" src="Images/headphone.jpeg" alt="product1">
+                    <div class="product_body">
+                        <h2>Sony V-4 HeadPhone</h2>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot blak"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product_description">
+                            Lorem ipsum dolor sit amet consectetur accusantium 
+                            quibusdam nemo... <a href="product.html">Learn More</a>
+                        </p>
+                        <h4 class="product_price">$225.99</h4>
+                        <p class="product_rating">Rating: 4.5/5</p>
+                        <button class="product_btn">Add to Card</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="badge">
+                        <span>8 in Stock</span>
+                        <hr class="hr">
+                        <span>2 Sold</span>
+                    </div>
+                    <img class="hand_watch image" src="Images/hand_watch.png" alt="product2">
+                    <div class="product_body">
+                        <h2>SKMEI SmartWatch</h2>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot blak"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product_description">
+                            Lorem ipsum dolor sit amet consectetur accusantium 
+                            quibusdam nemo... <a href="product.html">Learn More</a>
+                        </p>
+                        <h4 class="product_price">$625.99</h4>
+                        <p class="product_rating">Rating: 4.7/5</p>
+                        <button class="product_btn">Add to Card</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="badge">
+                        <span>3 in Stock</span>
+                        <hr class="hr">
+                        <span>1 Sold</span>
+                    </div>
+                    <img class="sunglass image" src="Images/Sunglass.webp" alt="product3">
+                    <div class="product_body">
+                        <h2>Branded Sunglass</h2>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot blak"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product_description">
+                            Lorem ipsum dolor sit amet consectetur accusantium 
+                            quibusdam nemo... <a href="product.html">Learn More</a>
+                        </p>
+                        <h4 class="product_price">$195.99</h4>
+                        <p class="product_rating">Rating: 4.9/5</p>
+                        <button class="product_btn">Add to Card</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="badge">
+                        <span>5 in Stock</span>
+                        <hr class="hr">
+                        <span>3 Sold</span>
+                    </div>
+                    <img class="phone image" src="Images/phone.jpeg" alt="product4">
+                    <div class="product_body">
+                        <h2>Note 10 Pro Max</h2>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot blak"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product_description">
+                            Lorem ipsum dolor sit amet consectetur accusantium 
+                            quibusdam nemo... <a href="product.html">Learn More</a>
+                        </p>
+                        <h4 class="product_price">$29,999.99</h4>
+                        <p class="product_rating">Rating: 4.7/5</p>
+                        <button class="product_btn">Add to Card</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="badge">
+                        <span>5 in Stock</span>
+                        <hr class="hr">
+                        <span>3 Sold</span>
+                    </div>
+                    <img class="acer image" src="Images/acer.webp" alt="product5">
+                    <div class="product_body">
+                        <h2>ACER WA6.XYZ</h2>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot blak"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product_description">
+                            Lorem ipsum dolor sit amet consectetur accusantium 
+                            quibusdam nemo... <a href="product.html">Learn More</a>
+                        </p>
+                        <h4 class="product_price">$68,999.99</h4>
+                        <p class="product_rating">Rating: 4.1/5</p>
+                        <button class="product_btn">Add to Card</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="badge">
+                        <span>5 in Stock</span>
+                        <hr class="hr">
+                        <span>3 Sold</span>
+                    </div>
+                    <img class="earbuds image" src="Images/earbuds.jpeg" alt="product6">
+                    <div class="product_body">
+                        <h2>Redmi 4 ActiveBuds</h2>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot blak"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product_description">
+                            Lorem ipsum dolor sit amet consectetur accusantium 
+                            quibusdam nemo... <a href="product.html">Learn More</a>
+                        </p>
+                        <h4 class="product_price">$1,999.99</h4>
+                        <p class="product_rating">Rating: 4.0/5</p>
+                        <button class="product_btn">Add to Card</button>
+                    </div>
+                </article>
+             </div>
+            <!-- Products section ends here -->
+        </div>
+    </main>
+    <!-- Main content ends here -->
     
     <!-- Footer starts here -->
      <footer class="flex-space-around">
