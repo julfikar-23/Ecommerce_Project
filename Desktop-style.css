@@ -192,9 +192,6 @@ main{
     transition: var(--transition);
 
 }
-/* .headphone,.hand_watch, .sunglass, .phone, .acer :hover{
-    filter: saturate(1);
-} */
  .image:hover{
     filter: saturate(1);
  }

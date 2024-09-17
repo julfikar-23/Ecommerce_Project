@@ -20,4 +20,11 @@
         flex-direction: column;
         gap: 5rem;
     }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        gap: 2rem;
+        padding: 2rem 0;
+        
+    }
 }
