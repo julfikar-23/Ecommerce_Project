@@ -15,11 +15,6 @@
     --border-radius: 0.6rem;
     --box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 0.5);
 }
-.flex-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .flex-space-around{
     display: flex;
     justify-content: space-around;
@@ -76,7 +71,39 @@ nav a{
 /* Navbar ends here */
 
 /* Banner starts here */
-
+.header{
+    padding: 4rem 0;
+    height: 80vh;
+    background: url("Images/Banner.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.banner{
+    height: 100%; width: 100%;
+    flex-direction: column;
+}
+.banner_title{
+    font-size: 4rem;
+    color: yellow;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+.features{
+    width: 100%;
+}
+.feature{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    width: 15rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    color: white;
+}
+.feature_icon{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.3rem;
+}
 /* Banner ends here */
 
 /* Footer starts here */
