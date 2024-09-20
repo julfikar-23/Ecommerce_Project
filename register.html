@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Desktop-style.css">
     <link rel="stylesheet" href="Mobile-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Ecommerce-Project</title>
+    <title>Ecommerce-Project/register</title>
 </head>
 <body>
     <!-- Navbar starts here -->
@@ -49,7 +49,30 @@
     </nav>
     <!-- Navbar ends here -->
     <main>
-        <h1>register page</h1>
+        <div class="register_page">
+            <h1>User Registration</h1>
+            <div class="register_form card">
+                <div class="">
+                    <label for="name" class="r">Name </label>
+                    <input required class="r_input" type="text">
+                </div>
+                <div class="">
+                    <label for="email" class="r">Email </label>
+                    <input required class="r_input" type="email">
+                </div>
+                <div class="">
+                    <label for="password" class="r">Password </label>
+                    <input required class="r_input" type="password">
+                </div>
+                <div class="">
+                    <label for="about_me" class="r r_about_me">About Me</label>
+                    <textarea  rows="5%" class="r-text" placeholder="Please say something about me."></textarea>
+                </div>
+                <div>
+                    <button class="btn r_btn">SUBMIT</button>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- Footer starts here -->
      <footer class="flex-space-around">
